@@ -20,6 +20,9 @@
   "entrypoints": {
     "client": [
       "io.github.cottonmc.itemkeys.Main"
+    ],
+    "main": [
+      "io.github.cottonmc.itemkeys.Main"
     ]
   },
   "mixins": [

@@ -33,9 +33,6 @@ dependencies {
 	modCompile "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	modApi(group: 'io.github.cottonmc', name: 'LibGui', version: '1.2.5')
-	modApi(group: 'io.github.cottonmc', name: 'CottonRPG', version: '0.2.0') { transitive = false }
-	include(group: 'io.github.cottonmc', name: 'LibGui', version: '1.2.5')
-	include(group: 'io.github.cottonmc', name: 'CottonRPG', version: '0.2.0')
 
 
 	// PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.

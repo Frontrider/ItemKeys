@@ -1,5 +1,6 @@
 package io.github.cottonmc.itemkeys;
 
+import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 
@@ -8,5 +9,5 @@ import net.minecraft.item.ItemStack;
  * */
 public interface KeyholdingControlledItem {
 
-    void onItemKeyHeld(ItemStack itemStack, PlayerEntity playerEntity);
+    void onItemKeyHeld(ItemStack itemStack, ClientPlayerEntity playerEntity);
 }

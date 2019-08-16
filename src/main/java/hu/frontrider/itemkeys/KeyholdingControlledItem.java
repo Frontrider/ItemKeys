@@ -1,4 +1,4 @@
-package io.github.cottonmc.itemkeys;
+package hu.frontrider.itemkeys;
 
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;

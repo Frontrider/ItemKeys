@@ -1,4 +1,4 @@
-package io.github.cottonmc.itemkeys;
+package hu.frontrider.itemkeys;
 
 import io.netty.buffer.Unpooled;
 import net.fabricmc.api.ClientModInitializer;

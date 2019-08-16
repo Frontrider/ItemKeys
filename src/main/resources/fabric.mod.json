@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "item_keys",
+  "version": "${version}",
+
+  "name": "generic keybidnings for items",
+  "description": "Library mod that adds a keybinding that can be used to interact with items. Does nothing on it's own",
+  "authors": [
+    "Frontrider,Cotton Team"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/item_keys/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.cottonmc.itemkeys.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.8",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
